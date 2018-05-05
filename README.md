@@ -2,7 +2,7 @@
 
 ### Overview
 
-Mediaelement Snapshot plugin creates a button to take video snapshots easily!
+Mediaelement Snapshot plugin creates a button in the player controls allows to take video snapshots with different image types (jpeg, png).
 
 ### Installation
 
