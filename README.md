@@ -2,6 +2,7 @@
 
 * Author: Yassine Qoraiche
 * Website: https://codecsocean.com/
+* License: MIT
 
 ## Overview
 
