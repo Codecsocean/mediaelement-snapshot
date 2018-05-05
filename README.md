@@ -8,7 +8,7 @@ Mediaelement Snapshot plugin creates a button in the player controls allows to t
 
 Download plugin files and place the js files after the main [Mediaelement](https://github.com/mediaelement/mediaelement/) player js `mediaelement-and-player.min.js` file:
 
-```markdown
+```HTML
 <!-- Include main mediaelement player file -->
 <script src="/path/to/mediaelement-and-player.min.js"></script>
 <!-- Include snapshot main plugin file -->
@@ -19,7 +19,7 @@ Download plugin files and place the js files after the main [Mediaelement](https
 ```
 Place plugin main CSS style after the main player stylesheet
 
-```markdown
+```HTML
 
 <!-- Include main mediaelement player stylesheet file -->
 <link rel="stylesheet" href="/path/to/mediaelementplayer.min.css">
@@ -28,11 +28,43 @@ Place plugin main CSS style after the main player stylesheet
 
 ```
 
-For more details about [Mediaelement plugins installation](https://github.com/mediaelement/mediaelement-plugins#installation).
+Add plugin keyword to the features list
+
+```Javascript
+features: [..., 'snapshot']
+```
+
+For more details about [install mediaelement plugin](https://github.com/mediaelement/mediaelement-plugins#installation).
 
 ## Usage
 
+Example how to use Snapshot plugin
 
+```Javascript
+
+let player = new MediaElementPlayer(document.querySelector('video'), {
+
+  features:['play', 'playpause', volume', 'progress', 'snapshot', fullscreen'],
+
+       snapType:'jpeg',
+       snapQuality: 0.5, //half quality
+       snapShot: true,
+            
+       snapSuccess: function(snap){
+          console.log(snap.url);
+       },
+
+       snapError: function(error){
+          console.log(error.message);
+       }
+       
+ });
+
+```
+
+## API
+
+API Table
 
 ## Support
 
