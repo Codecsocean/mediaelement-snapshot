@@ -1,37 +1,38 @@
-## Welcome to GitHub Pages
+## Mediaelement Snapshot
 
-You can use the [editor on GitHub](https://github.com/Codecsocean/mediaelement-snapshot/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Overview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Mediaelement Snapshot plugin creates a button to take video snapshots easily!
 
-### Markdown
+### Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Download plugin files and place the following js files after the main [Mediaelement](https://github.com/mediaelement/mediaelement/) player js `mediaelement-and-player.min.js` file:
 
 ```markdown
-Syntax highlighted code block
+<!-- Include main mediaelement player file -->
+<script src="/path/to/mediaelement-and-player.min.js"></script>
+<!-- Include snapshot main plugin file -->
+<script src="/path/to/snapshot/snapshot.min.js"></script>
+<!-- Include snapshot Translation file -->
+<script src="/path/to/snapshot/snapshot-i18n.js"></script>
 
-# Header 1
-## Header 2
-### Header 3
+```
+Place plugin main CSS style after the main player stylesheet
 
-- Bulleted
-- List
+```markdown
 
-1. Numbered
-2. List
+<link rel="stylesheet" href="/path/to/mediaelementplayer.min.css">
+<link rel="stylesheet" href="/path/to/snapshot/snapshot.min.css">
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+For more details about [Mediaelement plugins installation](https://github.com/mediaelement/mediaelement-plugins#installation).
 
-### Jekyll Themes
+### Usage
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Codecsocean/mediaelement-snapshot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Support
+
+Having trouble with this plugin? [create an issue](https://github.com/Codecsocean/mediaelement-snapshot/issues) describing the problem that you have encountered.
+ 
