@@ -6,7 +6,7 @@ Mediaelement Snapshot plugin creates a button to take video snapshots easily!
 
 ### Installation
 
-Download plugin files and place the following js files after the main [Mediaelement](https://github.com/mediaelement/mediaelement/) player js `mediaelement-and-player.min.js` file:
+Download plugin files and place the js files after the main [Mediaelement](https://github.com/mediaelement/mediaelement/) player js `mediaelement-and-player.min.js` file:
 
 ```markdown
 <!-- Include main mediaelement player file -->
