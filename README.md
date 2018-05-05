@@ -66,13 +66,13 @@ var player = new MediaElementPlayer(document.querySelector('video'), {
 
 | Parameter 	| Type 	       | Default | Description |
 | ----------- | ------------ | --------| -----------
-| snapShot    | boolean      | true    | rgergergerg
-| snapType    | string       | png     | gergergerge
-| snapQuality | number|float | 1       | gergergerge
-| snapWidth   | number       | null    | gergergerge
-| snapHeight  | number       | null    | gergergerge
-| snapSuccess | callback     | null    | gergergerge
-| snapError   | callback     | null    | gergergerge
+| snapShot    | boolean      | true    | 
+| snapType    | string       | png     | 
+| snapQuality | number|float | 1.0     | 
+| snapWidth   | number       | null    | 
+| snapHeight  | number       | null    | 
+| snapSuccess | callback     | null    | 
+| snapError   | callback     | null    | 
 
 ## Support
 
