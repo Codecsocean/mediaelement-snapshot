@@ -1,10 +1,10 @@
-## Mediaelement Snapshot
+# Mediaelement Snapshot
 
-### Overview
+## Overview
 
 Mediaelement Snapshot plugin creates a button in the player controls allows to take video snapshots with different image types (jpeg, png).
 
-### Installation
+## Installation
 
 Download plugin files and place the js files after the main [Mediaelement](https://github.com/mediaelement/mediaelement/) player js `mediaelement-and-player.min.js` file:
 
@@ -30,11 +30,11 @@ Place plugin main CSS style after the main player stylesheet
 
 For more details about [Mediaelement plugins installation](https://github.com/mediaelement/mediaelement-plugins#installation).
 
-### Usage
+## Usage
 
 
 
-### Support
+## Support
 
 Having trouble with this plugin? [create an issue](https://github.com/Codecsocean/mediaelement-snapshot/issues) describing the problem that you have encountered.
  
