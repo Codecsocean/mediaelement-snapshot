@@ -27,7 +27,7 @@ Object.assign(mejs.MepDefaults, {
 	snapError: null, // snap error callBack
 	snapSuccess: null, // snap success callBack
 	snapType: 'png', // default image-type value
-	snapQuality: 0.2,  // default snap-quality value
+	snapQuality: 1,  // default snap-quality value
 	snapShot: true,
 	snapWidth: null,
 	snapHeight: null
