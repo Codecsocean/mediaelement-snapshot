@@ -38,7 +38,7 @@ That's it !, for more details about [install mediaelement plugin](https://github
 
 ## Usage
 
-Example how to use Snapshot plugin
+Example initialize Snapshot plugin
 
 ```Javascript
 
@@ -64,7 +64,15 @@ var player = new MediaElementPlayer(document.querySelector('video'), {
 
 ## API
 
-API Table
+| Parameter 	| Type 	       | Default | Description |
+| ----------- | ------------ | --------| -----------
+| snapShot    | boolean      | true    | rgergergerg
+| snapType    | string       | png     | gergergerge
+| snapQuality | number|float | 1       | gergergerge
+| snapWidth   | number       | null    | gergergerge
+| snapHeight  | number       | null    | gergergerge
+| snapSuccess | callback     | null    | gergergerge
+| snapError   | callback     | null    | gergergerge
 
 ## Support
 
