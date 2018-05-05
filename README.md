@@ -66,7 +66,7 @@ var player = new MediaElementPlayer(document.querySelector('video'), {
 
 | Parameter 	| Type 	       | Default | Description |
 | ----------- | ------------ | --------| -----------
-| snapShot    | boolean      | true    | either to save snapshot locally or not
+| snapShot    | boolean      | true    | Either to save snapshot locally or not
 | snapType    | string       | png     | Type of image `png`|`jpeg`
 | snapQuality | number|float | 1       | Snapshot image quality between `0` and `1`
 | snapWidth   | number       | null    | Snapshot image width
