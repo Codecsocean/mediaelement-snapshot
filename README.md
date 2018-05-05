@@ -21,7 +21,9 @@ Place plugin main CSS style after the main player stylesheet
 
 ```markdown
 
+<!-- Include main mediaelement player stylesheet file -->
 <link rel="stylesheet" href="/path/to/mediaelementplayer.min.css">
+<!-- Include snapshot main stylesheet file -->
 <link rel="stylesheet" href="/path/to/snapshot/snapshot.min.css">
 
 ```
