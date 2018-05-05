@@ -34,7 +34,7 @@ Add plugin keyword to the features list
 features: [..., 'snapshot']
 ```
 
-For more details about [install mediaelement plugin](https://github.com/mediaelement/mediaelement-plugins#installation).
+That's it !, for more details about [install mediaelement plugin](https://github.com/mediaelement/mediaelement-plugins#installation).
 
 ## Usage
 
@@ -42,7 +42,7 @@ Example how to use Snapshot plugin
 
 ```Javascript
 
-let player = new MediaElementPlayer(document.querySelector('video'), {
+var player = new MediaElementPlayer(document.querySelector('video'), {
 
   features:['play', 'playpause', volume', 'progress', 'snapshot', fullscreen'],
 
@@ -51,11 +51,11 @@ let player = new MediaElementPlayer(document.querySelector('video'), {
        snapShot: true,
             
        snapSuccess: function(snap){
-          console.log(snap.url);
+          console.log(snap.url); //return snap object
        },
 
-       snapError: function(error){
-          console.log(error.message);
+       snapError: function(){
+          console.log('snapshot error !');
        }
        
  });
