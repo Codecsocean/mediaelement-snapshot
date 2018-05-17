@@ -59,7 +59,7 @@ var player = new MediaElementPlayer(document.querySelector('video'), {
        },
 
        snapError: function(){
-          console.log('snapshot error !');
+          console.log('you can not take snapshot while the player loading !');
        }
        
  });
