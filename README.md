@@ -38,9 +38,9 @@ Add plugin keyword to the features list
 features: [..., 'snapshot']
 ```
 
-That's it !, 
+That's it !.
 
-For more details about [install mediaelement plugin](https://github.com/mediaelement/mediaelement-plugins#installation).
+For more details about [How to Install mediaelement plugin](https://github.com/mediaelement/mediaelement-plugins#installation).
 
 ## Usage
 
