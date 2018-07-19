@@ -44,7 +44,7 @@ For more details about [How to Install mediaelement plugin](https://github.com/m
 
 ## Usage
 
-Example initialize Snapshot plugin
+Initialize Snapshot plugin
 
 ```Javascript
 
