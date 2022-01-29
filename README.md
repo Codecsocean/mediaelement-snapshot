@@ -50,7 +50,7 @@ Initialize Snapshot plugin
 
 var player = new MediaElementPlayer(document.querySelector('video'), {
 
-  features:['play', 'playpause', volume', 'progress', 'snapshot', fullscreen'],
+  features:['play', 'playpause', volume', 'progress', 'snapshot', 'fullscreen'],
 
        snapType:'jpeg',
        snapQuality: 0.5, //half quality
